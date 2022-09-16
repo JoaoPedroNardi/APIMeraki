@@ -22,7 +22,7 @@ public class SecurityConfiguration {
                 .antMatchers(HttpMethod.DELETE, "/api/usuario/**").permitAll()
                 .antMatchers(HttpMethod.PUT, "/api/usuario/**").permitAll()
                 .antMatchers(HttpMethod.GET, "/api/diario/**").permitAll()
-                .antMatchers(HttpMethod.POST, "/api/diario/").permitAll()
+                .antMatchers(HttpMethod.POST, "/api/diario").permitAll()
                 .antMatchers(HttpMethod.DELETE, "/api/diario/**").permitAll()
                 .antMatchers(HttpMethod.PUT, "/api/diario/**").permitAll()
                 .anyRequest().denyAll()
