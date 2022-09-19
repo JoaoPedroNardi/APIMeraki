@@ -67,3 +67,14 @@ Authorization: Basic joao@fiap.com.br 123
   "conteudo": "Hoje conheci o museu de história natural e me fez pensar...",
   "data": "2022-09-15"
 }
+
+#Atualizar diario
+PUT  http://localhost:8080/api/diario/3
+Content-Type: application/json
+Authorization: Basic joao@fiap.com.br 123
+
+{
+  "titulo": "Me sinto ótima",
+  "conteudo": "Ontem conheci o museu de história natural e me fez pensar...",
+  "data": "2022-09-15"
+}
